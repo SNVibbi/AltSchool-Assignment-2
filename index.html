@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP | Individual</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Brown&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="individual">
+            <img id="logo" src="./Logo.png" alt="Company Logo">
+            <h1>For Individual</h1>
+            <p>Start benefiting from the wellness experience. For companies looking to increase productivity, and improve organization wellness.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <form>
+            <div class="two-column">
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text" id="uniqueInput" id="firstname" placeholder="Tolu">
+                </div>
+                <div class="form-group">
+                    <label>Last Name</label> 
+                    <input type="text" id="lastname" placeholder="Enter last name">
+                </div>
+            </div>
+
+            <div class="two-column">
+                <div class="form-group">
+                    <label>Gender</label>
+                    <select id="gender" name="gender">
+                        <option selected>select here</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Date of Birth</label>
+                    <input type="date" id="dob">
+                </div>
+            </div>
+
+            <div class="two-column">
+                <div class="form-group">
+                    <label for="weight">Weigth (KG)</label>
+                    <input type="text" id="weigth" placeholder="Enter Weight">
+                </div>
+                <div class="form-group">
+                    <label>Height (CM)</label> 
+                    <input type="text" id="height" placeholder="Enter your Height">
+                </div>
+            </div>
+
+            <div class="form-group full-width">
+                <label>Activity Level</label> 
+                <select id="activity_level">
+                    <option>Select here</option>
+                </select>
+                
+            </div>
+
+            <div class="form-group full-width password-group">
+                <label>Password</label>
+                <input type="password" id="password" class="password-input">
+                <i class="fas fa-eye password-icon"></i>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Register" name="register" id="btn">
+                <p id="footer">By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>.</p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
